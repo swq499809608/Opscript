@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*-coding:UTF-8-*-
 """
-@Item   :  Rsync Backup
+@Item   :  Vsftp Backup
 @Author :  Villiam Sheng
 @Group  :  Open Group
 @Date   :  2016-08-11
@@ -18,8 +18,8 @@ name = 'anyween'
 pswd = "anyween"
 port  = 21
 #Source File path
-SFILE = '/data/vsftp/club/'
-BAKFILE = '/data/vsftp/club_bak/'
+SFILE = '/data/vsftp/web/'
+BAKFILE = '/data/vsftp/web_bak/'
 #Log path 
 LOGFILE = '/var/log/vsftp.upload.log'
 #Ftp Timeout 30 
